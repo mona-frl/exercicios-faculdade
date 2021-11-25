@@ -1,0 +1,14 @@
+.img{
+   background: url(mona.gif) no-repeat; 
+   width: 200px;
+   height: 200px;
+   display: block;
+   background-size: contain;
+}
+.img:hover{
+    background-position: 0px 50px;
+}
+
+.img:active{
+    background-position: 50px 50px
+}

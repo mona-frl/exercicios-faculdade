@@ -1,0 +1,16 @@
+.alternative{
+    list-style:georgian;
+    font-size: 30px;
+    color: khaki;
+    width: fit-content;
+}
+.alternative li:nth-child(even){
+    background-color: lightcoral;
+}
+.alternative li:nth-child(odd){
+    background-color: lightseagreen;
+}
+
+.alternative li:hover{
+    font-weight: bolder;
+}
